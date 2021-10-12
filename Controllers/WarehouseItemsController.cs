@@ -17,7 +17,7 @@ namespace WareHouse_API.Controllers
             return warehouseItem;
 
         }
-        /* No need of overloading the GET or any other call types at this stage.*/
+        /* No need of overloading the GET or any other call types at this stage. */
 
         //// GET api/<WarehouseItemsController>/5
         //[HttpGet("{id}")]
