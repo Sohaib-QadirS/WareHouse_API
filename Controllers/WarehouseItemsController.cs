@@ -19,6 +19,11 @@ namespace WareHouse_API.Controllers
         {
             _userService = userService;
         }
+        /// <summary>
+        /// This call ishas the AllowAnonymous atribute to allow users to login
+        /// </summary>
+        /// <param name="model"></param>
+        /// <returns></returns>
 
         [AllowAnonymous]
         [HttpPost("authenticate")]
@@ -41,13 +46,7 @@ namespace WareHouse_API.Controllers
             return Ok(warehouseItem);
 
         }
-        /* No need of overloading the GET or any other call types at this stage. */
+        /* No need of other call types at this stage. */
 
-        //// GET api/<WarehouseItemsController>/5
-        //[HttpGet("{id}")]
-        //public string Get(int id)
-        //{
-        //    return "value";
-        //}
     }
 }
