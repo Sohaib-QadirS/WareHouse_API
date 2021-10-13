@@ -21,6 +21,7 @@ namespace WareHouse_API.Controllers
         }
         /// <summary>
         /// This call ishas the AllowAnonymous atribute to allow users to login
+        /// It will only return the user details if the user is authorized
         /// </summary>
         /// <param name="model"></param>
         /// <returns></returns>
